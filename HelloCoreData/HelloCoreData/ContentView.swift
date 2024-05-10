@@ -1,17 +1,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    let provider: StorageProvieder
+    @State private var name = ""
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            TextField("Name", text: $name)
+            Button("Save") {
+                provider.save(name)
+            }
+            .disabled(name.isEmpty)
         }
         .padding()
     }
 }
-
-#Preview {
-    ContentView()
-}
+//
+//#Preview {
+//    ContentView()
+//}
