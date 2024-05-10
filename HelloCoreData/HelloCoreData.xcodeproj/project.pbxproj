@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E8C29DD52BEDD96C007B894D /* Movie+Extenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C29DD42BEDD96C007B894D /* Movie+Extenstion.swift */; };
 		E8C4A1D22BEDBE170042506D /* HelloCoreDataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C4A1D12BEDBE170042506D /* HelloCoreDataApp.swift */; };
 		E8C4A1D42BEDBE170042506D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C4A1D32BEDBE170042506D /* ContentView.swift */; };
 		E8C4A1D62BEDBE180042506D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8C4A1D52BEDBE180042506D /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E8C29DD42BEDD96C007B894D /* Movie+Extenstion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Movie+Extenstion.swift"; sourceTree = "<group>"; };
 		E8C4A1CE2BEDBE170042506D /* HelloCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8C4A1D12BEDBE170042506D /* HelloCoreDataApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloCoreDataApp.swift; sourceTree = "<group>"; };
 		E8C4A1D32BEDBE170042506D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 			children = (
 				E8C4A1D12BEDBE170042506D /* HelloCoreDataApp.swift */,
 				E8C4A1D32BEDBE170042506D /* ContentView.swift */,
+				E8C29DD42BEDD96C007B894D /* Movie+Extenstion.swift */,
 				E8C4A1DF2BEDBE960042506D /* Hello.xcdatamodeld */,
 				E8C4A1E22BEDBFB80042506D /* StorageProvieder.swift */,
 				E8C4A1D52BEDBE180042506D /* Assets.xcassets */,
@@ -147,6 +150,7 @@
 				E8C4A1E12BEDBE960042506D /* Hello.xcdatamodeld in Sources */,
 				E8C4A1E32BEDBFB80042506D /* StorageProvieder.swift in Sources */,
 				E8C4A1D22BEDBE170042506D /* HelloCoreDataApp.swift in Sources */,
+				E8C29DD52BEDD96C007B894D /* Movie+Extenstion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
